@@ -10,4 +10,8 @@ use App\Wcs\Hello;
 $Hello = new Hello();
 echo $Hello->talk();
 
+$SayHello = new \HelloWorld\SayHello();
+echo $SayHello->world();
+
+
 
