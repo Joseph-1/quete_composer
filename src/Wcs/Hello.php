@@ -1,11 +1,11 @@
 <?php
 
-namespace Wcs;
+namespace App\Wcs;
 
 class Hello
 {
     public function talk()
     {
-        return 'Hello World !';
+        return "Hello Word !";
     }
 }
